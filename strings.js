@@ -16,3 +16,19 @@ var DNA = “GCAT”;
 var RNA = DNA.replace('T', 'U');
 
 console.log(“RNA”, RNA);
+
+// Challenge #4
+
+var animal = 'Goat'; 
+var animal = 'alligator';
+if(animal === 'alligator'){ //animal.toLowerCase()=== 'alligator'
+        console.log("small");
+}else{
+     console.log("wide");
+}
+
+if(animal === 'Goat'){
+    console.log('wide');
+}else{
+    console.log('wide');
+}
