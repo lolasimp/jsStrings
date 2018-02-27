@@ -3,6 +3,6 @@
 var numOfSandwhiches = 4 * 2 ;
 console.log("numOfSandwhiches", numOfSandwhiches);
 
-var name = "Lola"
-var string "How are you doing?"
+var name = "Lola";
+var string= "Hello, " + name + " how are you today?";
 console.log(“string”, string); 
