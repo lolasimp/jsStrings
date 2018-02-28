@@ -41,3 +41,13 @@ var domString = "<h4>" + yarn + "<h4>";
 
 var myDiv =document.getElementById('yarn-holder');
 myDiv.innerHTML = domString;
+
+
+//Challenge 5
+var str = 'IBMWLOVEbmcatsbmw';
+var love =str.replace (/[BMWbmw]/g,'');
+
+console.log(love);
+var loveStr = '<h1>' + love + '<h1>';
+var loveElement = document.getElementById('love-holder');
+loveElement.innerHTML = loveStr;
